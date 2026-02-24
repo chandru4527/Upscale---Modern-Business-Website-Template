@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg position-fixed" id="mainNav">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand h1 text-light">Upscale</a>
+                <div class="d-flex align-items-center order-lg-2">
+                    <a href="#" class="btn btn-primary me-2" type="button" role="button">Get Started</a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbartoggler" aria-controls="navbartoggler" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-center order-lg-1" id="navbartoggler">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 gap-4">
+                        <li class="nav-item h6">
+                            <a href="" class="nav-link active text-light">Home</a>
+                        </li>
+                        <li class="nav-item h6">
+                            <a href="" class="nav-link active text-light">About</a>
+                        </li>
+                        <li class="nav-item h6">
+                            <a href="" class="nav-link active text-light">Services</a>
+                        </li>
+                        <li class="nav-item h6">
+                            <a href="" class="nav-link active text-light">Portfolio</a>
+                        </li>
+                        <li class="nav-item h6">
+                            <a href="" class="nav-link active text-light">Team</a>
+                        </li>
+                        <li class="nav-item h6 dropdown text-light">
+                            <a href="#" class="nav-link active  text-light" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Dropdown</a>
+                            <!-- <ul class="dropdown-menu">
+                                <li class="dropdown-item">link1</li>
+                                <li class="dropdown-item">link2</li>
+                                <li class="dropdown-item">link3</li>
+                                <li>
+                                    <hr class="Dropdown-divider">
+                                </li>
+                                <li class="dropdown-item">link4</li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+        <div id="slide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/slide1.webp" alt="...">
+                </div>
+                <div class="carousel-item " data-bs-interval="10000">
+                    <img src="./images/slide2.webp" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/slide3.webp" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/slide4.webp" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/slide5.webp" alt="...">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            <!-- Overlay div -->
+            <div class="overlay-content">
+                <h1 class="mb-3 h1 display-3 fw-bold hero">Welcome to Our Website</h1>
+                <div class="mx-auto mt-3 mb-3 border-bottom border-primary border-4" style="width: 100px;"></div>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 1 -->
+    <div class="container p-2 my-5">
+        <div class="row g-4">
+            <!-- card 1 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="custom-card border rounded p-4">
+                    <div class="d-flex">
+                        <div class="icon-box mb-3 rounded">
+                            <i class="bi bi-activity icon"></i>
+                        </div>
+                        <h5 class="fw-bold ms-2">Performance Analytics</h5>
+                    </div>
+                    <p class="text-muted"><small>Real-time insights into your application's performance. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Illo odio esse commodi corrupti
+                            consectetur.</small>
+                    <p>
+                    <div>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>Live performance tracking</small>
+                        </p>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>Custom alert notifications</small>
+                        </p>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>Detailed analytics reports</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="custom-card border border rounded p-4 ">
+                    <div class="d-flex">
+                        <div class="icon-box mb-3 rounded">
+                            <i class="bi bi-bounding-box-circles icon"></i>
+                        </div>
+                        <h5 class="fw-bold ms-2">Intelligent Automation</h5>
+                    </div>
+                    <p>
+                        <small>Streamline your workflow with smart automation tools. Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit. Praesentium quos illum, sequi aspernatur animi in expedita!</small>
+                    </p>
+                    <div>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>Workflow automation</small>
+                        </p>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>API integrations</small>
+                        </p>
+                        <p><i class="bi bi-check-circle text-primary me-2"></i><small>Template library</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="custom-card border rounded p-4">
+                    <div class="d-flex">
+                        <div class="icon-box mb-3 rounded">
+                            <i class="bi bi-calendar4-week icon"></i>
+                        </div>
+                        <h5 class="fw-bold ms-2">Team Collaboration</h5>
+                    </div>
+                    <p class="text-muted"><small>Enhance team productivity with unified collabration features. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis sit similique
+                            temporibus?</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>Real-time communication</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>Project managment</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>File sharing and sync</small></p>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="custom-card border rounded p-4">
+                    <div class="d-flex">
+                        <div class="icon-box mb-3 rounded">
+                            <i class="bi bi-broadcast icon"></i>
+                        </div>
+                        <h5 class="fw-bold ms-2">Security & Compliance</h5>
+                    </div>
+                    <p class="text-muted"><small>Enterprise-grade security with full compliance standards. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Sapiente, rerum. Quam eveniet consectetur iusto
+                            repellendus.</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>End-to-end encryption</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>Compliance certifications</small></p>
+                    <p><i class="bi bi-check-circle text-primary me-2"></i><small>Regular security audits</small></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- container 2 -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">ABOUT</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-12 col-lg-5 order-lg-1 order-2">
+                <h3>Building Trust Through Excellence and Innovation</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <div class="box-1 d-flex align-items-start gap-3 mb-4">
+                    <div class="icon-box">
+                        <i class="bi bi-award icon-1"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-1">Industry Expertise</h6>
+                        <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                            consectetur adipisci velit.</p>
+                    </div>
+                </div>
+                <div class="box-1 d-flex align-items-start gap-3 mb-4">
+                    <div class="icon-box">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-1">Proven Results</h6>
+                        <p class="mb-0">At vero eos et accusamus et justo odio dignissimos ducimus qui blanditiis
+                            praesentium.</p>
+                    </div>
+                </div>
+                <div class="box-1 d-flex align-items-start gap-3 mb-4">
+                    <div class="icon-box">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-1">Client-Focused Approach</h6>
+                        <p class="mb-0">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                            saepe eveniet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-12 order-lg-2 order-1">
+                <div class="row g-4">
+
+                    <div class="image-grid">
+
+                        <div class="grid-item grid-large">
+                            <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/about/about-1.webp"
+                                class="img-fluid rounded-2" alt="">
+                        </div>
+
+                        <div class="grid-item grid-small">
+                            <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/about/about-square-2.webp"
+                                class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="">
+                            <div class="shadow-lg rounded-2 p-5 text-center stats-card mb-4">
+                                <h3 class="fw-bold text-primary mb-0 fw-bold">15+</h3>
+                                <p class="mb-2">Years Experience</p>
+
+                                <h3 class="fw-bold text-primary mb-0 fw-bold">500+</h3>
+                                <p class="mb-0">Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 3 -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">WHY US</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-lg-5">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                <div class="stats-card row d-flex justify-content-center align-items-between text-center text-lg-start">
+                    <div class="stats-item col-12 col-md-4 mb-3">
+                        <h1 class="text-primary fw-bold">25+</h1>
+                        <p class="text-secondary">YEARS EXPERIENCE</p>
+                    </div>
+                    <div class="stats-item col-12 col-md-4 mb-3">
+                        <h1 class="text-primary fw-bold">850+</h1>
+                        <p class="text-secondary">CLIENTS SERVED</p>
+                    </div>
+                    <div class="stats-item col-12 col-md-4 mb-3">
+                        <h1 class="text-primary fw-bold">98+</h1>
+                        <p class="text-secondary">SUCCESS RATE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7">
+
+                <div class="container mt-3">
+                    <div class="row g-4">
+                        <div class="features-grid">
+
+                            <!-- card 1 -->
+                            <div class="feature-item  d-flex border p-4  rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-shield-check icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>Industry Expertise</h5>
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                        sed
+                                        quia consequuntur magni dolores eos qui ratione.</p>
+                                </div>
+                            </div>
+
+                            <!-- card 2 -->
+                            <div class="feature-item  d-flex border p-4  rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-graph-up-arrow icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>Proven Track Record</h5>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium voluptatum deleniti atque corrupti quos.</p>
+                                </div>
+                            </div>
+                            <!-- card 3 -->
+                            <div class="feature-item  d-flex border p-4  rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-people icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>Dedicated Team</h5>
+                                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                                        saepe eveniet ut et voluptates repudiandae sint.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- card 4 -->
+                            <div class="feature-item  d-flex border p-4  rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-award icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>Quality Assurance</h5>
+                                    <p>Et harum quidem rerum facilis est et expedita distinctio nam libero tempore, cum
+                                        soluta nobis est eligendi optio cumque.</p>
+                                </div>
+                            </div>
+
+                            <!-- card 5 -->
+                            <div class="feature-item  d-flex border p-4 rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-headset icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>24/7 Support</h5>
+                                    <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                                        voluptatibus maiores alias consequatur aut perferendis.</p>
+                                </div>
+                            </div>
+
+                            <!-- card 6 -->
+                            <div class="feature-item  d-flex border p-4 rounded-2">
+                                <div class="feature-icon mb-3 rounded icon-box">
+                                    <i class="bi bi-lock icon"></i>
+                                </div>
+                                <div class="feature-content ms-2">
+                                    <h5>Security First</h5>
+                                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                        molestiae consequatur vel illum qui dolorem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 4 -->
+
+    <div class="container mt-5 mb-5">
+        <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-1.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-2.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-3.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-4.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-5.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="client-box">
+                    <div class="client-item d-flex align-items-center justify-content-center">
+                        <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/clients/clients-6.webp"
+                            alt="" class="img-fluid m-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 5 -->
+
+    <div class="container mt-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">SERIVCES</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div>
+        </div>
+        <div class="row g-4 mt-4 mb-5">
+            <!-- card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-graph-up-arrow  icon"></i>
+                    </div>
+                    <h5 class="mt-3">Strategic Consulting</h5>
+                    <p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam eaque ipsa.</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-shield-check icon"></i>
+                    </div>
+                    <h4 class="mt-3">Risk Management</h4>
+                    <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos.</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right fw-bold ali"></i></a>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-briefcase icon"></i>
+                    </div>
+                    <h4 class="mt-3">Business Solutions</h4>
+                    <p class="mt-3">Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum
+                        soluta nobis est eligendi optio cumque.</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-pie-chart icon"></i>
+                    </div>
+                    <h4 class="mt-3">Financial Planning</h4>
+                    <p class="mt-3">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                        eveniet ut et voluptates repudiandae sint</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-people icon"></i>
+                    </div>
+                    <h5 class="mt-3">Team Development</h5>
+                    <p class="mt-3">Itaque earum rerum hic tenetur sapiente delectus ut aut reiciendis voluptatibus
+                        maiores alias consequatur aut perferendis doloribus.</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-4 card-1">
+                    <div class="icon-box-2 ">
+                        <i class="bi bi-lightbulb icon"></i>
+                    </div>
+                    <h4 class="mt-3">Business Solutions</h4>
+                    <p class="mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia
+                        consequuntur magni dolores eos qui ratione.</p>
+                    <a href="" class="mt-3 fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-8">
+                <h2 class="mt-3">Ready to Transform Your Business?</h2>
+                <p class="mt-4">Partner with industry experts to drive growth and achieve measurable results. Our proven
+                    methodologies and dedicated team are ready to help you succeed</p>
+                <p class="mt-4"><i class="bi bi-check-circle text-primary me-2 circle-icon"></i>Proven track record with
+                    Fortune 500
+                    companies</p>
+                <p><i class="bi bi-check-circle text-primary me-2 circle-icon"></i>Customized solutions tailored to your
+                    needs</p>
+                <p><i class="bi bi-check-circle text-primary me-2 circle-icon"></i>Dedicated support throughout
+                    implementation</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="cta-actions mt-3">
+                    <a href="" class="btn btn-primary w-100 mt-4 p-3 cta-1 button-1" type="button">Schedule
+                        Consultation</a>
+                    <a href="" class="btn  w-100 mt-2 p-3 button-2" type="button">Download Case Study</a>
+                </div>
+                <hr>
+                <div class="text-center mt-3">
+                    <p><strong class="h5 text-primary fw-bold">1,200+</strong> Business Served</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="ms-1 fw-bold">4.9/5 Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 6 -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-12 col-lg-7 text-center mb-5">
+                <h3 class="">PORTFOLIO</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row g-5 text-center">
+                <div class="col">
+                    <button class="btn btn-primary active px-4 py-2 me-2 mt-2">
+                        All Projects
+                    </button>
+
+                    <button class="btn border px-4 py-2 me-2 p-btn mt-2">
+                        Consulting
+                    </button>
+
+                    <button class="btn border px-4 py-2 me-2  p-btn mt-2">
+                        Financial Services
+                    </button>
+
+                    <button class="btn border px-4 py-2 me-2 p-btn mt-2">
+                        Technology
+                    </button>
+
+                    <button class="btn border px-4 py-2 me-2 p-btn mt-2">
+                        Enterprise Solutions
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+
+            <!-- card 1 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-3.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        MANAGEMENT CONSULTING
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">Enterprise Transformation Initiative</h5>
+                            <small class="text-secondary">2024</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Sed porttitor lectus nibh. Curabitur arcu erat, accumsan id imperdiet et,
+                            porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                        </small>
+                        <hr>
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">ROI IMPROVEMENT</small><br>
+                                    <span class="fw-bold">+42%</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">TIME LINE</small><br>
+                                    <span class="fw-bold">18 Months</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 gap-3 d-flex justify-content-between">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card 2 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-7.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        FINANCIAL SERVICES
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">Risk Management Platform Implementation</h5>
+                            <small class="text-secondary">2024</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+                        </small>
+                        <hr>
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">RISK REDUCTION</small><br>
+                                    <span class="fw-bold">-35%</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">COMPLIANCE</small><br>
+                                    <span class="fw-bold">100%</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 d-flex gap-2 justify-content-between align-items-center">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card 3 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-11.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        ENTERPRISE SOLUTIONS
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">Global ERP System Integration</h5>
+                            <small class="text-secondary">2023</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Quisque
+                            velit nisi, pretium ut lacinia in, elementum id enim.
+                        </small>
+                        <hr>
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">EFFICIENCY GAIN</small><br>
+                                    <span class="fw-bold">+58%</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">USERS</small><br>
+                                    <span class="fw-bold">12,000+</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 d-flex gap-3 justify-content-between">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card 4 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-9.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        TECHNOLOGY SOLUTIONS
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">Cloud Migration & Infrastructure Modernization</h5>
+                            <small class="text-secondary">2023</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                        </small>
+                        <hr>
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">COST SAVINGS</small><br>
+                                    <span class="fw-bold">$2.4M</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">UPTIME</small><br>
+                                    <span class="fw-bold">99.9%</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 d-flex gap-3 justify-content-between">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 5 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-12.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        TECHNOLOGY SOLUTIONS
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">AI-Powered Analytics Platform</h5>
+                            <small class="text-secondary">2023</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Proin
+                            eget tortor risus.
+                        </small>
+                        <hr>
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">DATA PROCESSING</small><br>
+                                    <span class="fw-bold">10x Faster</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">ACCURACY</small><br>
+                                    <span class="fw-bold">97%</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 d-flex gap-3 justify-content-between">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 6 -->
+            <div class="col-12 col-lg-6">
+                <div class="card position-relative">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/portfolio/portfolio-5.webp"
+                        alt="" class="img-fluid card-img-top">
+                    <small class="position-absolute text-primary bg-light p-1 rounded ms-2 mt-2 small-text-1 fw-bold">
+                        TECHNOLOGY SOLUTIONS
+                    </small>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title">Market Expansion Strategy Development</h5>
+                            <small class="text-secondary">2024</small>
+                        </div>
+
+                        <small class="opacity-75 d-block">
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                            Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                        </small>
+                        <hr class="">
+
+                        <div class="row mt-4 align-items-center">
+                            <div class="col-md-6 col-12 d-flex justify-content-between mb-3 mb-md-0">
+                                <div>
+                                    <small class="small-text">MARKET SHARE</small><br>
+                                    <span class="fw-bold">+28%</span>
+                                </div>
+                                <div>
+                                    <small class="small-text">NEW MARKETS</small><br>
+                                    <span class="fw-bold">7</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 d-flex gap-3 justify-content-between">
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2 ">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="" class="btn btn-outline-primary px-4 small-text-2">
+                                    <i class="bi bi-file-earmark-text"></i> Case Study
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-5 border rounded">
+            <div class="col-lg-9 ">
+                <h3>Discover How We Can Drive Your Business Forward</h3>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan
+                    id imperdiet et, porttitor at sem.</p>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <button class="btn btn-primary">Schedule Consultation</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 7 -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">PRICING</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div>
+        </div>
+        <div class="row g-4 mt-5 mb-5">
+
+            <!-- card 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-center p-4 gap-3 rounded-4 card-c7">
+                    <div class="icon-box-2 align-self-center">
+                        <i class="bi bi-star icon"></i>
+                    </div>
+                    <h3>standard</h3>
+                    <div class="price">
+                        <h1 class="fw-bold" style="line-height: 1;">
+                            <span style="font-size: 0.6em; vertical-align: super;">$</span>
+                            9
+                            <small style="font-size: 0.5em; vertical-align: sub;">/Month</small>
+                        </h1>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed do. </p>
+                    <div class="d-flex flex-column mt-2">
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+                    </div>
+                    <div>
+                        <button class="btn border rounded rounded-pill text-primary btn-c7">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-center p-4 gap-3 border-primary rounded-4 position-relative card-c7">
+                    <div class="icon-box-2 align-self-center">
+                        <i class="bi bi-stars icon"></i>
+                    </div>
+
+                    <button
+                        class="btn btn-primary position-absolute top-0 start-50 translate-middle rounded-pill fs-6">Recommended</button>
+                    <h3>Professional</h3>
+                    <div class="price">
+                        <h1 class="fw-bold" style="line-height: 1;">
+                            <span style="font-size: 0.6em; vertical-align: super;">$</span>
+                            29
+                            <small style="font-size: 0.5em; vertical-align: sub;">/Month</small>
+                        </h1>
+                    </div>
+                    <p>Maecenas tempus tellus eget condimentum rhoncus semper.</p>
+                    <div class="d-flex flex-column mt-2">
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Donec quam felis ultricies
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Aenean massa imperdie
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Cras dapibus vivamus
+                        </small>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary rounded rounded-pill px-4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-center p-4 gap-3 rounded-4 card-c7">
+                    <div class="icon-box-2 align-self-center">
+                        <i class="bi bi-star-fill icon"></i>
+                    </div>
+                    <h3>standard</h3>
+                    <div class="price">
+                        <h1 class="fw-bold" style="line-height: 1;">
+                            <span style="font-size: 0.6em; vertical-align: super;">$</span>
+                            49
+                            <small style="font-size: 0.5em; vertical-align: sub;">/Month</small>
+                        </h1>
+                    </div>
+                    <p>Etiam rhoncus maecenas tempus tellus eget condimentum</p>
+                    <div class="d-flex flex-column mt-2">
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+
+                        <small class="d-flex align-items-center gap-2">
+                            <i class="bi bi-check text-primary"></i> Vestibulum ante ipsum primis
+                        </small>
+                    </div>
+                    <div>
+                        <button class="btn border text-primary rounded rounded-pill btn-c7">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- container 8 -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center g-4 mb-4">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">FAQ</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem
+                    aperiam</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button text-primary bg-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Vestibulum ac diam sit amet quam vehicula elementum?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ">
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo
+                            eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia curae. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nulla porttitor accumsan tincidunt mauris blandit?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar a. Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis
+                            porttitor volutpat. Sed porttitor lectus nibh.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Curabitur aliquet quam id dui posuere blandit proin?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet
+                            quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada.
+                            Pellentesque in ipsum id orci porta dapibus.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Vivamus magna justo lacinia eget consectetur sed?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            Donec sollicitudin molestie malesuada proin eget?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.
+                            Cupiditate non provident, similique sunt in culpa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                            Pellentesque in ipsum id orci porta dapibus vestibulum?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo
+                            eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                            Quisque velit nisi, pretium ut lacinia in.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 9 -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center g-4 mb-4">
+            <div class="col-12 col-md-12 col-lg-7 text-center">
+                <h3 class="">TEAM</h3>
+                <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem
+                    aperiam</p>
+            </div>
+        </div>
+
+        <div class="row gy-5">
+            <!-- card1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-m-7.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">Walter White</h5>
+                        <p class="text-primary fs-6 lh-1">Chief Executive Officer</p>
+                        <p class="lh-1">MBA, Harvard Business School</p>
+                        <p>Over 20 years of leadership experience in strategic planning and business development.
+                            Specializes in driving organizational growth and operational excellence across global
+                            markets.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-f-8.webp"
+                        class="card-img-top object-fit-cover" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">Sarah Johnson</h5>
+                        <p class="text-primary fs-6 lh-1">Chief Financial Officer</p>
+                        <p class="lh-1">CPA, CFA</p>
+                        <p>Expert in financial strategy and risk management with proven track record in optimizing
+                            financial performance. Led successful initiatives resulting in 40% revenue growth.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-m-6.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">William Anderson</h5>
+                        <p class="text-primary fs-6 lh-1">Chief Technology Officer</p>
+                        <p class="lh-1">Ph.D. Computer Science, MIT</p>
+                        <p>Technology visionary with extensive experience in digital transformation and enterprise
+                            architecture. Drives innovation through cutting-edge solutions and strategic technology
+                            partnerships.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-f-4.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">Amanda Jepson</h5>
+                        <p class="text-primary fs-6 lh-1">VP of Operations</p>
+                        <p class="lh-1">PMP, Six Sigma Black Belt</p>
+                        <p class="fs-6 lh-base">Seasoned operations leader focused on process optimization and quality
+                            management.
+                            Implemented systems that improved efficiency by 35% while maintaining exceptional service
+                            standards.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="#" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-m-11.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">Michael Chen</h5>
+                        <p class="text-primary fs-6 lh-1">VP of Business Development</p>
+                        <p class="lh-1">MBA, Wharton School</p>
+                        <p>Strategic partnership expert with demonstrated success in market expansion and client
+                            acquisition. Built relationships with Fortune 500 companies resulting in multi-million
+                            dollar contracts.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-c9">
+                    <img src="https://bootstrapmade.com/content/demo/UpScale/assets/img/person/person-f-12.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-text">Jennifer Martinez</h5>
+                        <p class="text-primary fs-6 lh-1">Chief Marketing Officer</p>
+                        <p class="lh-1">MA Marketing, Northwestern University</p>
+                        <p class="fs-6">Data-driven marketing strategist specializing in brand positioning and digital
+                            transformation. Led campaigns that increased market share by 25% and enhanced brand
+                            recognition globally.
+                        </p>
+                        <div class="member-social ms-2 d-flex gap-3 fs-4">
+                            <a href="" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="" aria-label="email"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- container 10 -->
+
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center g-4 mb-4">
+                <div class="col-12 col-md-12 col-lg-7 text-center">
+                    <h3 class="">CONTACT</h3>
+                    <div class="mx-auto mt-2 mb-2 border-bottom border-primary border-2" style="width: 60px;"></div>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                        perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
+                        rem
+                        aperiam</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 p-4 rounded border">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstname" class="form-label fs-6">Name</label>
+                            <input type="text" class="form-control" id="firstname">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputemail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="inputemail">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="inputAddress2">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputmessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="inputmessage" style="height: 120px"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="col bg-primary text-white p-3 rounded-2 mb-3">
+                        <h3>Get in Touch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="col rounded-2 bg-light p-2">
+                        <div class=" d-flex p-2">
+                            <div class="feature-icon mb-3 rounded icon-box text-primary">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="ms-2">
+                                <h5>Office Location</h5>
+                                <p>742 Evergreen Terrace <br>
+                                    Springfield, IL 62701</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex p-2">
+                            <div class="feature-icon mb-3 rounded icon-box text-primary">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="feature-content ms-2">
+                                <h5>Phone</h5>
+                                <p>+1 (555) 234-5678</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex p-2">
+                            <div class="feature-icon mb-3 rounded icon-box text-primary">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="feature-content ms-2">
+                                <h5>Email</h5>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex p-2">
+                            <div class="feature-icon mb-3 rounded icon-box text-primary">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div class="feature-content ms-2">
+                                <h6>Business Hours</h6>
+                                <p class="fs-6">Monday - Friday: 9:00 AM - 6:00 PM <br>
+                                    Saturday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d92243.02411287525!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown.%20Conference%20Center!5e1!3m2!1sen!2sus!4v1771897614459!5m2!1sen!2sus"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer dark-background text-light p-3">
+            <div class="container">
+                <div class="row p-2">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="fw-bold">UpScale</h4>
+                        <p class="mb-1">A108 Adam Street</p>
+                        <p class="mb-1">New York, NY 535022</p>
+                        <p class="mb-1"><strong>Phone:</strong> +1 5589 55488 55</p>
+                        <p><strong>Email:</strong> info@example.com</p>
+
+                        <div class="d-flex gap-3 mt-3">
+
+                            <a href="#" class="icon-c10 d-flex justify-content-center align-items-center 
+              border border-light rounded-circle text-light" style="width: 40px; height: 40px;">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+
+                            <a href="#" class="d-flex justify-content-center align-items-center 
+              border border-light rounded-circle text-light icon-c10" style="width: 40px; height: 40px;">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#" class="d-flex justify-content-center align-items-center 
+              border border-light rounded-circle text-light icon-c10" style="width: 40px; height: 40px;">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#" class="d-flex justify-content-center align-items-center 
+              border border-light rounded-circle text-light icon-c10" style="width: 40px; height: 40px;">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 mt-5 mt-md-0 mt-lg-0">
+                        <h5>Useful Links</h5>
+                        <ul>
+                            <li>Home</li>
+                            <li>Services</li>
+                            <li>About Us</li>
+                            <li>Terms of service</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <h5>Our Services</h5>
+                        <ul>
+                            <li>Web Design</li>
+                            <li>Web Development</li>
+                            <li>Product Management</li>
+                            <li>Marketing</li>
+                            <li>Graphic Design</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 mt-0 mt-md-5 mt-lg-0">
+                        <h5>Hic solutasetp</h5>
+                        <ul>
+                            <li>Molestiae accusamus iure</li>
+                            <li>Excepturi dignissimos</li>
+                            <li>Suscipit distinctio</li>
+                            <li>Dilecta</li>
+                            <li>Sit quas consectetur</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 md-3">
+                        <h5>Sit quas consectetur</h5>
+                        <ul>
+                            <li>Ipsam</li>
+                            <li>Laudantium dolorum</li>
+                            <li>Dinera</li>
+                            <li>Trodelas</li>
+                            <li>Flexo</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <p class="text-center" style="font-size: 12px;">© Copyright UpScale All Rights Reserved</p>
+            <span style="font-size: 12px;" class="text-center d-block">Designed by <strong
+                    class="text-primary">CK</strong></span>
+        </footer>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                const navbar = document.getElementById("mainNav");
+
+                if (window.scrollY > 200) {
+                    navbar.classList.add("navbar-scrolled");
+                } else {
+                    navbar.classList.remove("navbar-scrolled");
+                }
+            });
+        </script>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script>
+            feather.replace();
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
